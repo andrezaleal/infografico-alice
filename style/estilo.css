@@ -1,0 +1,35 @@
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.slider .slides{
+    height: 142% !important;
+}
+.slider.fullscreen {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.slider .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    bottom: 0;
+    top: 568px;
+    margin: 0;
+}
+.slider.fullscreen ul.indicators {
+    z-index: 2;
+    bottom: 30px;
+}
+.img{
+	width: 100px !important;
+}
