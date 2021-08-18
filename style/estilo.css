@@ -31,5 +31,14 @@
     bottom: 30px;
 }
 .img{
-	width: 100px !important;
+    width: 80px !important;
+    height: 100px !important;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;   
+}
+.img:hover{
+width: 269px !important;
+height: 300px !important;  
 }
