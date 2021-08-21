@@ -1,11 +1,13 @@
 .slider .slides li img {
     height: 100%;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .slider .slides{
     height: 142% !important;
+    background-color: white;white;
 }
 .slider.fullscreen {
     height: 100%;
@@ -31,14 +33,46 @@
     bottom: 30px;
 }
 .img{
-    width: 80px !important;
-    height: 100px !important;
+    width: 200px !important;
+    height: auto !important;
+}
+.imagem{
+    width: 180px !important;
+    height: auto !important;
     -webkit-transition: 0.5s ease-in;
     -moz-transition: 0.5s ease-in;
     -o-transition: 0.5s ease-in;
     transition: 0.5s ease-in;   
 }
-.img:hover{
-width: 269px !important;
-height: 300px !important;  
+.imagem:hover{
+    width: 320px !important;
+    height: auto !important;  
+}
+
+.flip-container {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+#switch:checked ~ .flip-container .flipper {
+  transform: rotateY(180deg);
+}
+#switch{
+    display: none;
+}
+.flipper{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.back{
+    transform: rotateY(180deg);
+}
+.front, .back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
