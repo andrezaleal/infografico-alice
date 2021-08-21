@@ -83,6 +83,9 @@ h5{
 }
 .texto-esquerda{
     text-align: left;
+    margin-left: -150px;
+    width: 300px;
+    font-size: 20px;
 }
 .texto-direita{
     text-align: right;
