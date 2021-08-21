@@ -78,16 +78,19 @@
 }
 
 h5{
-    font-family: 'STIXTwoText-Semi' !important;
+    font-family: 'STIXTwoText-Medium' !important;
     color: aqua;
 }
 .texto-esquerda{
-    text-align: left;
-    margin-left: -150px;
-    width: 300px;
-    font-size: 20px;
+    text-align: justify;
+    margin-left: -60%;
+    width: 110%;
+    font-size: 24px;
 }
 .texto-direita{
-    text-align: right;
+    text-align: justify;
+    margin-left: 40%;
+    width: 110%;
+    font-size: 24px;
 }
 
