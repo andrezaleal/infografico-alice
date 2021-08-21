@@ -7,7 +7,7 @@
 }
 .slider .slides{
     height: 142% !important;
-    background-color: white;white;
+    background-color: white;
 }
 .slider.fullscreen {
     height: 100%;
@@ -76,3 +76,15 @@
   height: 100%;
   backface-visibility: hidden;
 }
+
+h5{
+    font-family: 'STIXTwoText-Semi' !important;
+    color: aqua;
+}
+.texto-esquerda{
+    text-align: left;
+}
+.texto-direita{
+    text-align: right;
+}
+
